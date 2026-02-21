@@ -16,8 +16,6 @@
 // console.log(Math.abs([2]))
 // console.log(Math.abs([1,2]))
 // console.log(Math.abs({}))
-// console.log(Math.abs('string'))
-// console.log(Math.abs())
 
 
 // console.log(Math.floor(1.99))

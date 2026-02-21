@@ -4,7 +4,7 @@
 // sayHello()
 
 // function sayHello(name) {
-//     console.log('Hello ' + name)
+    // console.log('Hello ' + name)
 // }
 
 // sayHello('Sobhan')
@@ -13,25 +13,24 @@
 
 
 // function sum(num, num2) {
-//     return num + num2
+    // return num + num2
 // }
 // console.log(sum(1, 3))
 
 // let list = [1, 2, 3, 4, 5]
-
 // function sum2(list) {
-//     return list.reduce((sum, total) => {
-//         return sum + total
-//     })
+    // return list.reduce((sum, total) => {
+        // return sum + total
+    // })
 // }
 // console.log(sum2(list))
 
 
 
 
-/////////////////////////////////////////////////////// Global and Local Var
+///////////////////////////////////////////////////// Global and Local Var
 // function sum3() {
-//     let list = [6, 7, 8, 9]
+    // let list = [6, 7, 8, 9]
 // }
 // console.log(list)
 
@@ -51,7 +50,6 @@
 // }
 
 // test()
-
 // console.log(list)
 
 
@@ -82,7 +80,6 @@
 // function getFirst(list) {
 //     return list[0]
 // }
-
 // console.log(getFirst([10,20,30]))
 
 // let obj = [

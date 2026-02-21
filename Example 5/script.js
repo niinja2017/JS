@@ -7,7 +7,6 @@
 //     console.log(i)
 //     i++
 // }
-
 // do {
 //     i++
 //     console.log(i)

@@ -6,14 +6,14 @@
 
 // let age = 5
 // try {
-// if (age < 0) {
-// throw new Error("سن نمی‌تواند منفی باشد")
-// }
-//
-// console.log(age)
-//
+//     if (age < 0) {
+//         throw new Error("سن نمی‌تواند منفی باشد")
+//     }
+
+//     console.log(age)
+
 // } catch (error) {
-// console.log(error.message)
+//     console.log(error.message)
 // }
 
 
