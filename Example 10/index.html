@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .changeColor{
+            background-color: green;
+        }
+        .hiding{
+            border: 1px solid black;
+            padding: 16px;
+            border-radius: 5px;
+            background-color: rgb(35, 109, 245);
+            color: white;
+            opacity: 1;
+            transition: 0.5s;
+        }
+        .hide{
+            opacity: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul class="list" id="group">
+        <li class="list-item">item 1</li>
+        <li class="list-item">item 2</li>
+        <li class="list-item">item 3</li>
+        <li class="list-item">item 4</li>
+    </ul>
+
+    <button class="btn">click me</button>
+
+    <hr>
+
+    <button onclick="clickme()">click</button>
+
+    <hr>
+
+    <button onclick="show()">show</button>
+
+    <p class="hiding">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vitae, commodi sit a magnam temporibus accusamus at eligendi incidunt iusto neque iure, repellendus hic recusandae, sapiente dolorem odio maxime ullam.</p>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
