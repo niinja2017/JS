@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            margin: auto;
+            width: 1200px;
+            position: relative;
+            overflow: hidden;
+            user-select: none;
+        }
+
+        .videoPlayer {
+            width: 1200px;
+        }
+
+        .box {
+            height: 100px;
+            width: 100%;
+            background-color: gray;
+            position: absolute;
+            bottom: 0;
+            transform: translateY(100px);
+            transition: 0.5s;
+            display: flex;
+            align-items: center;
+            color: white;
+            justify-content: space-between;
+        }
+
+        .backward {
+            margin: 0 1rem;
+            cursor: pointer;
+        }
+
+        .start {
+            cursor: pointer;
+            margin-left: 1rem;
+        }
+
+        .forward {
+            cursor: pointer;
+        }
+
+        .fullscreen {
+            cursor: pointer;
+            margin-right: 1rem;
+        }
+        .time{
+            margin-left: 1rem;
+        }
+
+        .main:hover .box {
+            transform: translateY(0);
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="main">
+        <video class="videoPlayer" src="./../../1-what-is-nodejs.mp4"></video>
+        <div class="box">
+            <div>
+                <span class="start">play</span>
+                <span class="backward"><<</span>
+                <span class="forward">>></span>
+                <span class="time">00/00/00</span>
+            </div>
+            <span class="fullscreen">fullscreen</span>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
